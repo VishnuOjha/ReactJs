@@ -1,0 +1,20 @@
+:root {
+  --color-renature: #7860ed;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.react-logo {
+  stroke: var(--color-renature);
+  stroke-width: 3;
+  fill: transparent;
+}
