@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #282828;
+  color: #cccccc;
+  font-family: "Poppins", sans-serif;
+}
+
+* ::selection {
+  background: #03f2c4;
+}
+body {
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.wrapper {
+  max-width: 400px;
+  width: 100%;
+  height: 1200px;
+  padding: 10px;
+}
+
+.info-section {
+  background: #282828;
+  padding: 5px 0 2px 0;
+  box-shadow: -30px -20px 20px rgb(0, 0, 0, 0.2),
+    30px 20px 20px rgb(0, 0, 0, 0.2);
+  border: none;
+  outline: none;
+}
+
+.company-logo {
+  height: 200px;
+}
+
+.company-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-section img {
+  float: right;
+  width: 100px;
+  /* height: 100px; */
+  color: rgb(141, 139, 139);
+  shape-outside: circle();
+  background: #282828;
+  margin: 0 0 5px 0px;
+}
+.company-name {
+  width: 100%;
+}
+
+.company-name h2 {
+  font-size: 1.7rem;
+  width: 200px;
+}
+.company-name a {
+  text-decoration: none;
+  padding-top: 5px;
+  width: 200px;
+}
+
+.company-name a:hover {
+  color: #03a7ff;
+  text-decoration: underline;
+}
+
+.discription {
+  font-size: 0.78rem;
+  word-wrap: break-all;
+  word-break: break-word;
+}
+
+.btn-textOpen {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.readmore {
+  color: #cccccc;
+}
+
+.btn-textOpen:hover {
+  color: #03a7ff;
+  text-decoration: underline;
+}
+
+.company-description a {
+  text-decoration: none;
+}
+
+.company-description a:hover {
+  text-decoration: underline;
+  color: #03a7ff;
+  transition: all 0.2s;
+}
+.company-description p {
+  word-wrap: break-word;
+}
+.company-formername {
+  font-size: 0.78rem;
+  padding-bottom: 5px;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+span {
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-right: 5px;
+  transition: all 0.5s;
+  color: #faf3f3;
+}
+.company-type {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+}
+
+.company-trad {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+}
+.company-industry-type {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-founded {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+.company-founders {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-stores {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-coverdArea {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-keyPeopels {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-revenue {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-operatingIncome {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-assests {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+.company-equity {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-numofEmployees {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-subsidiaries {
+  font-size: 0.78rem;
+  padding: 5px 0;
+  /* border-bottom: 0.2px solid rgb(141, 139, 139); */
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  /* padding: 20px; */
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul li {
+  list-style: none;
+  font-size: 11px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+ul li a {
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -2px;
+  transition: all 0.2s;
+}
+
+.company-social a:hover {
+  color: #03a7ff;
+  transform: scale(1.1);
+  transition: all 0.5s;
+  text-decoration: underline;
+}
+ul li img {
+  width: 25px;
+  height: 30px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.company-social img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  overflow: hidden;
+  color: #03f2c4;
+  cursor: pointer;
+}
+
+.accordian-button {
+  text-align: center;
+  background: #03f2c4;
+  outline: none;
+  overflow: hidden;
+  transition: all 0.5s;
+  color: #000;
+}
+
+.accordian-button:active {
+  background: #09fff8;
+  transition: all 0.5s;
+}
+
+.accordian-button:hover {
+  transform: scale(0.9);
+  transition: all 0.5s;
+}

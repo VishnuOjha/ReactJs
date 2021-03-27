@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.accordian {
+  max-width: 600px;
+  margin: 10px 10px;
+}
+
+.accordian-header {
+  background: #000;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordian-header:active,:hover {
+  background: #fff;
+  color: #000;
+}
+div {
+  outline: none;
+  cursor: pointer;
+}
+.accordian-content {
+  margin-bottom: 5px;
+  display: block;
+  background: #bbbbbb;
+}

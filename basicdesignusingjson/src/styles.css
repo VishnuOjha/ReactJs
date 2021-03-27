@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgb(121, 121, 121);
+}
+
+.app-title {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  margin: 50px;
+  width: 600px;
+  height: 150px;
+  align-content: center;
+  justify-content: flex-start;
+  border: 1px solid #fff;
+  overflow: hidden;
+  background-color: #fff;
+}
+.pet-name {
+  font-size: 1.4rem;
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+.pet-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+.pet-age {
+  width: 150px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff;
+}
+
+.app-footer {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.pet-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-lists {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}

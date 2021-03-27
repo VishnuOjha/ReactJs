@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(0, 0, 0);
+  color: rgb(141, 139, 139);
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.wrapper {
+  max-width: 400px;
+  width: 100%;
+  height: 1200px;
+  padding: 20px;
+}
+
+.company-logo {
+  height: 200px;
+}
+
+.company-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-heading img {
+  height: 60px;
+  color: rgb(141, 139, 139);
+}
+.company-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-name h2 {
+  font-size: 1.7rem;
+  color: #fff;
+}
+.company-name a {
+  text-decoration: none;
+  padding-top: 5px;
+  color: #ffff;
+}
+
+.company-description {
+  overflow: hidden;
+  display: flex;
+  margin: 10px 0;
+  font-size: 0.8rem;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-description a {
+  color: #fff;
+  text-decoration: none;
+}
+.company-description p {
+  word-wrap: break-word;
+}
+.company-formername {
+  font-size: 0.8rem;
+  padding-bottom: 5px;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  margin-right: 5px;
+}
+.company-type {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+}
+
+.company-trad {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+}
+.company-industry-type {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-founded {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+.company-founders {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-stores {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-coverdArea {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-keyPeopels {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-revenue {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-operatingIncome {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-assests {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+.company-equity {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-numofEmployees {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  border-bottom: 0.2px solid rgb(141, 139, 139);
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+
+.company-subsidiaries {
+  font-size: 0.8rem;
+  padding: 5px 0;
+  /* border-bottom: 0.2px solid rgb(141, 139, 139); */
+  line-height: 1.25;
+  letter-spacing: 0.5px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul li {
+  list-style: none;
+  font-size: 11px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+ul li a {
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li img {
+  width: 30px;
+  height: 50px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordian-button {
+  text-align: center;
+  background: rgb(141, 139, 139);
+  outline: none;
+  overflow: hidden;
+  color: #fff;
+  font-size: 1.2remx;
+}
+
+.accordian-button:active {
+  background: #cccccc;
+  color: #000;
+}
