@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+.container {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+
+.wrapper {
+  max-width: 250px;
+  border: 1px solid orangered;
+  padding: 10px;
+  border-radius: 40px;
+  margin: 20px 0;
+  position: absolute;
+  top: 0;
+  left: 40%;
+}
+
+.search_txt {
+  background: none;
+  outline: none;
+  color: orangered;
+  border: none;
+  line-height: 30px;
+  padding: 0 10px;
+}
+.icon {
+  color: orangered;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.result {
+  margin-top: 5rem;
+  padding: 20px;
+}
+.result img {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
